@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 40px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #7fffe3;
+}
+
+form {
+  padding: 15px 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+form label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input {
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+#wrapper,
+#loginform {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  display: grid;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  background: rgb(255, 255, 255);
+  width: 600px;
+  height: 200px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+#loginform {
+  padding-top: 18px;
+  text-align: center;
+}
+
+#loginform p {
+  padding: 15px 25px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#chatbox {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  height: 300px;
+  width: 530px;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#usermsg {
+  flex: 1;
+  border-radius: 4px;
+  border: 2px solid #302e2d;
+}
+
+#name {
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 2px 8px;
+}
+
+#submitmsg,
+#enter {
+  background: #f38e30;
+  border: 2px solid #302e2d;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#enter:hover {
+  background: #f3711a;
+}
+
+#submitmsg {
+  background: #f19136;
+}
+
+#submitmsg:hover {
+  border: 1px solid #7fffe3;
+  background: #2cdd4a;
+}
+
+.error {
+  color: #ff0000;
+  background-color: #ecd9cf;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10pt;
+  font-size: 12pt;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  position: absolute;
+  left: 240pt;
+  top: 280pt;
+  transition: all 0.2s linear;
+}
+
+#menu {
+  padding: 15px 25px;
+  display: flex;
+}
+
+#menu p.welcome {
+  flex: 1;
+}
+
+a#exit {
+  color: white;
+  background: #dd322c;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+#exit:hover {
+  background-color: #ff0000;
+}
+
+.msgln {
+  margin: 0 0 5px 0;
+}
+
+.msgln span.left-info {
+  color: orangered;
+}
+
+.msgln span.chat-time {
+  color: rgb(0, 0, 0);
+  font-size: 50%;
+  font-family: "Montserrat", sans-serif;
+  /* vertical-align: super; */
+}
+
+.msgln b.user-name,
+.msgln b.user-name-left {
+  font-weight: bold;
+  background: #2ff086fb;
+  color: white;
+  padding: 2px 4px;
+  font-size: 90%;
+  border-radius: 4px;
+  margin: 0 5px 0 0;
+}
+
+.msgln b.user-name-left {
+  background: orangered;
+}
