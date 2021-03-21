@@ -41,7 +41,7 @@ function loginForm(){
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>PHP Chat Application</title>
+        <title>PHP Web Chat Application</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
